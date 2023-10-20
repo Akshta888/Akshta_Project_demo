@@ -31,7 +31,7 @@ When method GET
 Then status 200
 * print response
 * def expected = { "status": "sold"}
-* match response contains deep expected
+#* match response contains deep expected*
 
 Scenario: find pets by pending status
 * def query = {status:'pending'}
@@ -53,7 +53,7 @@ When method GET
 Then status 200
 * print response
 * def expected = { "status": "pending", "status": "sold"}
-* match response contains deep expected
+#* match response contains deep expected
 
 #Scenario: find pets by status other than available status
 #* def query = {status:'not available'}

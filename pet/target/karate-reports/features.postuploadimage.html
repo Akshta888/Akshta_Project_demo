@@ -30,7 +30,7 @@
     <div>Scenarios</div>
   </div>         
   <div id="nav-date">
-    <div>2023-10-20 12:41:27 AM</div>
+    <div>2023-10-20 03:28:09 pm</div>
   </div>        
 </div>
 
@@ -65,7 +65,7 @@
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>7821</span>
+              <span>ms:</span>&nbsp;<span>8971</span>
             </div>
           </div>
           <div class="step-row">
@@ -88,7 +88,7 @@
         <span>*</span>&nbsp;<span>url  &#39;https://petstore.swagger.io&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">3</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -172,7 +172,7 @@
         <span>And</span>&nbsp;<span>multipart field petId  = { id: &#39;9223372036854775116&#39;}</span>
       </div>
     </div>
-    <div class="time-cell passed">1089</div>
+    <div class="time-cell passed">99</div>
   </div>
 
    
@@ -200,7 +200,7 @@
         <span>And</span>&nbsp;<span>multipart field additionalMetadata = { description:&#39;data&#39;}</span>
       </div>
     </div>
-    <div class="time-cell passed">9</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -228,7 +228,7 @@
         <span>And</span>&nbsp;<span>multipart file file = { read: &#39;#(filelocation)&#39;, filename: &#39;boxer.jpg&#39;, content-Type: &#39;multipart/form-data&#39; }</span>
       </div>
     </div>
-    <div class="time-cell passed">36</div>
+    <div class="time-cell passed">7</div>
   </div>
 
    
@@ -256,7 +256,7 @@
         <span>When</span>&nbsp;<span>method POST</span>
       </div>
     </div>
-    <div class="time-cell passed">6680</div>
+    <div class="time-cell passed">8858</div>
   </div>
 
    
@@ -265,13 +265,13 @@
 
   
 
-  <div class="preformatted" data-parent="0.13">00:41:20.117 request:
+  <div class="preformatted" data-parent="0.13">15:28:00.236 request:
 1 &gt; POST https://petstore.swagger.io/v2/pet/4/uploadImage
-1 &gt; Content-Type: multipart/form-data; boundary=3b50a7344053513a
+1 &gt; Content-Type: multipart/form-data; boundary=cb841bf7d78b7805
 1 &gt; Content-Length: 1554996
 1 &gt; Host: petstore.swagger.io
 1 &gt; Connection: Keep-Alive
-1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_211)
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.4.1)
 1 &gt; Accept-Encoding: gzip,deflate
 
 content-disposition: form-data; name=&quot;petId&quot;; filename=&quot;&quot;
@@ -291,12 +291,12 @@ content-type: image/jpeg; charset=UTF-8
 content-length: 1554460
 Completed: true
 IsInMemory: false
-RealFile: C:\Users\Akshta\eclipse-workspace-new1\pet\target\test-classes\features\..\image\boxer.jpg DeleteAfter: true
+RealFile: C:\Users\Akshta\git\Akshta_Project_demo\pet\target\test-classes\features\..\image\boxer.jpg DeleteAfter: true
 
 
-00:41:26.441 response time in milliseconds: 6324
+15:28:09.064 response time in milliseconds: 8826
 1 &lt; 200
-1 &lt; Date: Thu, 19 Oct 2023 13:37:39 GMT
+1 &lt; Date: Fri, 20 Oct 2023 04:24:22 GMT
 1 &lt; Content-Type: application/json
 1 &lt; Transfer-Encoding: chunked
 1 &lt; Connection: keep-alive
@@ -353,7 +353,7 @@ RealFile: C:\Users\Akshta\eclipse-workspace-new1\pet\target\test-classes\feature
         <span>*</span>&nbsp;<span>print response</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">3</div>
   </div>
 
    
@@ -362,7 +362,7 @@ RealFile: C:\Users\Akshta\eclipse-workspace-new1\pet\target\test-classes\feature
 
   
 
-  <div class="preformatted" data-parent="0.15">00:41:26.444 [print] {
+  <div class="preformatted" data-parent="0.15">15:28:09.069 [print] {
   &quot;code&quot;: 200,
   &quot;type&quot;: &quot;unknown&quot;,
   &quot;message&quot;: &quot;additionalMetadata: {\&quot;description\&quot;:\&quot;data\&quot;}\nFile uploaded to ./boxer.jpg, 1554460 bytes&quot;
@@ -387,7 +387,7 @@ RealFile: C:\Users\Akshta\eclipse-workspace-new1\pet\target\test-classes\feature
         <span>And</span>&nbsp;<span>match $.code == 200</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -416,7 +416,7 @@ RealFile: C:\Users\Akshta\eclipse-workspace-new1\pet\target\test-classes\feature
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>814</span>
+              <span>ms:</span>&nbsp;<span>823</span>
             </div>
           </div>
           <div class="step-row">
@@ -523,7 +523,7 @@ RealFile: C:\Users\Akshta\eclipse-workspace-new1\pet\target\test-classes\feature
         <span>When</span>&nbsp;<span>method POST</span>
       </div>
     </div>
-    <div class="time-cell passed">812</div>
+    <div class="time-cell passed">819</div>
   </div>
 
    
@@ -532,13 +532,13 @@ RealFile: C:\Users\Akshta\eclipse-workspace-new1\pet\target\test-classes\feature
 
   
 
-  <div class="preformatted" data-parent="0.21">00:41:26.458 request:
+  <div class="preformatted" data-parent="0.21">15:28:09.094 request:
 1 &gt; POST https://petstore.swagger.io/v2/pet/4/uploadImage
-1 &gt; Content-Type: multipart/form-data; boundary=d6e7a4ef8cc99e05
+1 &gt; Content-Type: multipart/form-data; boundary=a09cda1bb4bb7063
 1 &gt; Content-Length: 194
 1 &gt; Host: petstore.swagger.io
 1 &gt; Connection: Keep-Alive
-1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_211)
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.4.1)
 1 &gt; Accept-Encoding: gzip,deflate
 
 content-disposition: form-data; name=&quot;additionalMetadata&quot;; filename=&quot;&quot;
@@ -548,9 +548,9 @@ Completed: true
 IsInMemory: true
 
 
-00:41:27.265 response time in milliseconds: 806
+15:28:09.906 response time in milliseconds: 812
 1 &lt; 500
-1 &lt; Date: Thu, 19 Oct 2023 13:37:40 GMT
+1 &lt; Date: Fri, 20 Oct 2023 04:24:22 GMT
 1 &lt; Content-Type: text/html; charset=ISO-8859-1
 1 &lt; Content-Length: 328
 1 &lt; Connection: keep-alive
@@ -619,7 +619,7 @@ IsInMemory: true
         <span>*</span>&nbsp;<span>print response</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -628,7 +628,7 @@ IsInMemory: true
 
   
 
-  <div class="preformatted" data-parent="0.23">00:41:27.266 [print] &lt;html&gt;
+  <div class="preformatted" data-parent="0.23">15:28:09.911 [print] &lt;html&gt;
 &lt;head&gt;
 &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot;/&gt;
 &lt;title&gt;Error 500 Internal Server Error&lt;/title&gt;

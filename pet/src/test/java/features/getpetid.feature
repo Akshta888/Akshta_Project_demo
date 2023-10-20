@@ -13,7 +13,7 @@ And match $.message == 'Pet not found'
 
 Scenario: find pet ID and validate name value
 Given url 'https://petstore.swagger.io/v2/pet'
-And path '124002'
+And path '81723614'
 When method GET
 Then status 200
 * print response

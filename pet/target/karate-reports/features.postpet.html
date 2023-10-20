@@ -30,7 +30,7 @@
     <div>Scenarios</div>
   </div>         
   <div id="nav-date">
-    <div>2023-10-20 12:41:11 AM</div>
+    <div>2023-10-20 03:27:53 pm</div>
   </div>        
 </div>
 
@@ -65,7 +65,7 @@
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>1061</span>
+              <span>ms:</span>&nbsp;<span>1199</span>
             </div>
           </div>
           <div class="step-row">
@@ -88,7 +88,7 @@
         <span>*</span>&nbsp;<span>url  &#39;https://petstore.swagger.io/v2/pet&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">2</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -116,7 +116,7 @@
         <span>*</span>&nbsp;<span>def requestPayload = read(&#39;../resources/addpet.json&#39;)</span>
       </div>
     </div>
-    <div class="time-cell passed">18</div>
+    <div class="time-cell passed">13</div>
   </div>
 
    
@@ -144,7 +144,7 @@
         <span>*</span>&nbsp;<span>def requestPayload1 = read(&#39;../resources/addpet_405.json&#39;)</span>
       </div>
     </div>
-    <div class="time-cell passed">3</div>
+    <div class="time-cell passed">4</div>
   </div>
 
    
@@ -228,7 +228,7 @@
         <span>When</span>&nbsp;<span>method POST</span>
       </div>
     </div>
-    <div class="time-cell passed">1033</div>
+    <div class="time-cell passed">1169</div>
   </div>
 
    
@@ -237,19 +237,19 @@
 
   
 
-  <div class="preformatted" data-parent="0.12">00:41:09.292 request:
+  <div class="preformatted" data-parent="0.12">15:27:51.200 request:
 1 &gt; POST https://petstore.swagger.io/v2/pet
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Content-Length: 143
 1 &gt; Host: petstore.swagger.io
 1 &gt; Connection: Keep-Alive
-1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_211)
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.4.1)
 1 &gt; Accept-Encoding: gzip,deflate
 {&quot;id&quot;:456678,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;doggie&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;available&quot;}
 
-00:41:10.125 response time in milliseconds: 833
+15:27:52.137 response time in milliseconds: 936
 1 &lt; 200
-1 &lt; Date: Thu, 19 Oct 2023 13:37:22 GMT
+1 &lt; Date: Fri, 20 Oct 2023 04:24:05 GMT
 1 &lt; Content-Type: application/json
 1 &lt; Transfer-Encoding: chunked
 1 &lt; Connection: keep-alive
@@ -306,7 +306,7 @@
         <span>*</span>&nbsp;<span>print response</span>
       </div>
     </div>
-    <div class="time-cell passed">2</div>
+    <div class="time-cell passed">5</div>
   </div>
 
    
@@ -315,7 +315,7 @@
 
   
 
-  <div class="preformatted" data-parent="0.14">00:41:10.132 [print] {
+  <div class="preformatted" data-parent="0.14">15:27:52.148 [print] {
   &quot;id&quot;: 456678,
   &quot;category&quot;: {
     &quot;id&quot;: 0,
@@ -353,7 +353,7 @@
         <span>And</span>&nbsp;<span>match $.id == &#39;#present&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">2</div>
+    <div class="time-cell passed">4</div>
   </div>
 
    
@@ -381,7 +381,7 @@
         <span>And</span>&nbsp;<span>match $.status == &#39;available&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">3</div>
   </div>
 
    
@@ -410,7 +410,7 @@
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>1115</span>
+              <span>ms:</span>&nbsp;<span>1365</span>
             </div>
           </div>
           <div class="step-row">
@@ -433,7 +433,7 @@
         <span>*</span>&nbsp;<span>url  &#39;https://petstore.swagger.io/v2/pet&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -489,7 +489,7 @@
         <span>*</span>&nbsp;<span>def requestPayload1 = read(&#39;../resources/addpet_405.json&#39;)</span>
       </div>
     </div>
-    <div class="time-cell passed">4</div>
+    <div class="time-cell passed">13</div>
   </div>
 
    
@@ -517,7 +517,7 @@
         <span>Given</span>&nbsp;<span>url &#39;https://petstore.swagger.io/v2/pet&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -545,7 +545,7 @@
         <span>And</span>&nbsp;<span>request requestPayload1</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -573,7 +573,7 @@
         <span>When</span>&nbsp;<span>method GET</span>
       </div>
     </div>
-    <div class="time-cell passed">989</div>
+    <div class="time-cell passed">1161</div>
   </div>
 
    
@@ -582,19 +582,19 @@
 
   
 
-  <div class="preformatted" data-parent="0.22">00:41:10.167 request:
+  <div class="preformatted" data-parent="0.22">15:27:52.246 request:
 1 &gt; GET https://petstore.swagger.io/v2/pet
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Content-Length: 142
 1 &gt; Host: petstore.swagger.io
 1 &gt; Connection: Keep-Alive
-1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_211)
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.4.1)
 1 &gt; Accept-Encoding: gzip,deflate
 {&quot;id&quot;:&quot;444&quot;,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;doggie&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;available&quot;}
 
-00:41:10.996 response time in milliseconds: 828
+15:27:53.160 response time in milliseconds: 914
 1 &lt; 405
-1 &lt; Date: Thu, 19 Oct 2023 13:37:23 GMT
+1 &lt; Date: Fri, 20 Oct 2023 04:24:06 GMT
 1 &lt; Content-Type: application/xml
 1 &lt; Content-Length: 102
 1 &lt; Connection: close
@@ -651,7 +651,7 @@
         <span>*</span>&nbsp;<span>print response</span>
       </div>
     </div>
-    <div class="time-cell passed">115</div>
+    <div class="time-cell passed">177</div>
   </div>
 
    
@@ -660,7 +660,7 @@
 
   
 
-  <div class="preformatted" data-parent="0.24">00:41:11.268 [print] &lt;apiResponse&gt;
+  <div class="preformatted" data-parent="0.24">15:27:53.552 [print] &lt;apiResponse&gt;
   &lt;type&gt;unknown&lt;/type&gt;
 &lt;/apiResponse&gt;
  
@@ -683,7 +683,7 @@
         <span>*</span>&nbsp;<span>match $.id == &#39;#notpresent&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">3</div>
+    <div class="time-cell passed">6</div>
   </div>
 
    

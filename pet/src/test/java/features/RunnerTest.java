@@ -1,10 +1,9 @@
 package features;
+
 import com.intuit.karate.*;
 import com.intuit.karate.junit5.Karate;
 
-
 public class RunnerTest {
-
 	
 	@Karate.Test
 	Karate getpetidAPITest() {
@@ -38,5 +37,4 @@ public class RunnerTest {
 	Karate deletepetAPITest() {
 		return Karate.run("deleteapipet").relativeTo(getClass());
 						}
-	
 }
